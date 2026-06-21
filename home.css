@@ -1,0 +1,195 @@
+body{
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fdf0d5;
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: #003049;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu a{
+    color: #ffbe0b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+h1{
+    font-family: Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 80px;
+    padding: 10px 0;
+    margin: 0 0;
+    color: #fb5607;
+    background-color: #003049;
+}
+
+#sobre-home {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    width: 100%;
+}
+
+#sobre-home img {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    margin-right: 40px;
+}
+
+#sobre-home-texto {
+    /* padding: 20px; */
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 80px;
+}
+
+#sobre-home-texto h2 {
+    font-size: 56px;
+}
+
+#sobre-home-texto p {
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    /* margin-right: 40px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 80%;
+}
+
+#contato-home {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: #ffbe0b;
+    margin-right: 20px;
+}
+
+#contato-home img {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+}
+
+#contato-home-texto {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 60px;
+}
+
+#contato-home-texto h2 {
+    font-size: 56px;
+}
+
+#contato-home-texto p {
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#portfolio-home {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    /* margin-right: 20px; */
+    width: 100%;
+}
+
+#portfolio-home img {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    margin-right: 40px;
+}
+
+#portfolio-home-texto {
+    /* padding: 20px; */
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 80px;
+}
+
+#portfolio-home-texto h2 {
+    font-size: 56px;
+}
+
+#portfolio-home-texto p {
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+#foto-sobre-home {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#foto-contato-home {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#foto-portfolio-home {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.botao-acesso-home {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao-acesso-home:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #003049;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-left: 20px;
+}

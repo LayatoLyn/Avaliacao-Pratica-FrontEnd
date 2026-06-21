@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fdf0d5;
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: #003049;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu a{
+    color: #ffbe0b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+#foto-de-fundo {
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    padding: 10px 0;
+    margin: 0 0;
+    color: #fb5607;
+    background-color: #003049;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galeria-row {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) { /* usei ai nessa parte pq nao sabia como fazer o media query */
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+footer {
+    background-color: #003049;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-left: 20px;
+}
